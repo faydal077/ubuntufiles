@@ -1,0 +1,8 @@
+E:Malformed line 1 in source list /etc/apt/sources.list.d/medibuntu.list
+(type),
+E:The list of sources could not be read.,
+E:The package lists or status file could not be parsed or opened.
+
+solution:
+
+sudo rm /etc/apt/sources.list.d/medibuntu.list
